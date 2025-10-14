@@ -1,0 +1,32 @@
+{
+  "name": "@k3vndev/tw-animations",
+  "version": "0.1.1",
+  "description": "Tiny set of Tailwind v4 friendly animation utilities",
+  "main": "dist/tw-animations.css",
+  "files": [
+    "src/"
+  ],
+  "type": "module",
+  "peerDependencies": {
+    "tailwind": "^4.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/tw-animations.css",
+      "default": "./src/tw-animations.css"
+    }
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "animations"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "postcss": "^8.0.0",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
