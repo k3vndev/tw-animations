@@ -1,0 +1,31 @@
+@utility anim-slide-move-xs {
+  --anim-slide-move: 0.5rem;
+}
+
+@utility anim-slide-move-sm {
+  --anim-slide-move: 1rem;
+}
+
+@utility anim-slide-move-md {
+  --anim-slide-move: 2rem;
+}
+
+@utility anim-slide-move-lg {
+  --anim-slide-move: 3rem;
+}
+
+@utility anim-slide-move-xl {
+  --anim-slide-move: 4rem;
+}
+
+@utility anim-slide-move-2xl {
+  --anim-slide-move: 6rem;
+}
+
+@utility anim-slide-move-3xl {
+  --anim-slide-move: 9rem;
+}
+
+@utility anim-slide-move-* {
+  --anim-slide-move: --value([ *]);
+}

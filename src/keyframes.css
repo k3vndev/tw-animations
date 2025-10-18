@@ -1,97 +1,48 @@
-/* Slide in animations */
-@keyframes slide-in-left {
+/* Slide animations */
+@keyframes slide-in {
   from {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: calc(var(--animation-slide-offset) * -1) 0;
+    opacity: var(--anim-opacity);
+    filter: var(--anim-blur);
+    scale: var(--anim-scale-x) var(--anim-scale-y);
+    rotate: var(--anim-rotate);
+    translate: var(--internal-anim-slide-transform);
   }
-  to {
-    translate: 0;
-  }
-}
-@keyframes slide-in-right {
-  from {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: var(--animation-slide-offset) 0;
-  }
-  to {
-    translate: 0;
-  }
-}
-@keyframes slide-in-top {
-  from {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: 0 calc(var(--animation-slide-offset) * -1);
-  }
-  to {
-    translate: 0;
-  }
-}
-@keyframes slide-in-bottom {
-  from {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: 0 var(--animation-slide-offset);
-  }
+
   to {
     translate: 0;
   }
 }
 
-/* Slide out animations */
-@keyframes slide-out-left {
+
+@keyframes slide-out {
   from {
     translate: 0;
   }
+
   to {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: calc(var(--animation-slide-offset) * -1) 0;
-  }
-}
-@keyframes slide-out-right {
-  from {
-    translate: 0;
-  }
-  to {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: var(--animation-slide-offset) 0;
-  }
-}
-@keyframes slide-out-top {
-  from {
-    translate: 0;
-  }
-  to {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: 0 calc(var(--animation-slide-offset) * -1);
-  }
-}
-@keyframes slide-out-bottom {
-  from {
-    translate: 0;
-  }
-  to {
-    opacity: 0;
-    filter: var(--animation-blur);
-    translate: 0 var(--animation-slide-offset);
+    opacity: var(--anim-opacity);
+    filter: var(--anim-blur);
+    scale: var(--anim-scale-x) var(--anim-scale-y);
+    rotate: var(--anim-rotate);
+    translate: var(--internal-anim-slide-transform);
   }
 }
 
 /* Fade animations */
 @keyframes fade-in {
   from {
-    opacity: 0;
-    filter: var(--animation-blur);
+    opacity: var(--anim-opacity);
+    filter: var(--anim-blur);
+    scale: var(--anim-scale-x) var(--anim-scale-y);
+    rotate: var(--anim-rotate);
   }
 }
+
 @keyframes fade-out {
   to {
-    opacity: 0;
-    filter: var(--animation-blur);
+    opacity: var(--anim-opacity);
+    filter: var(--anim-blur);
+    scale: var(--anim-scale-x) var(--anim-scale-y);
+    rotate: var(--anim-rotate);
   }
 }

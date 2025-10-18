@@ -1,0 +1,380 @@
+@utility anim-scale-x-0 {
+  --anim-scale-x: 0;
+}
+
+@utility anim-scale-x-5 {
+  --anim-scale-x: 0.05;
+}
+
+@utility anim-scale-x-10 {
+  --anim-scale-x: 0.1;
+}
+
+@utility anim-scale-x-15 {
+  --anim-scale-x: 0.15;
+}
+
+@utility anim-scale-x-20 {
+  --anim-scale-x: 0.2;
+}
+
+@utility anim-scale-x-25 {
+  --anim-scale-x: 0.25;
+}
+
+@utility anim-scale-x-30 {
+  --anim-scale-x: 0.3;
+}
+
+@utility anim-scale-x-35 {
+  --anim-scale-x: 0.35;
+}
+
+@utility anim-scale-x-40 {
+  --anim-scale-x: 0.4;
+}
+
+@utility anim-scale-x-45 {
+  --anim-scale-x: 0.45;
+}
+
+@utility anim-scale-x-50 {
+  --anim-scale-x: 0.5;
+}
+
+@utility anim-scale-x-55 {
+  --anim-scale-x: 0.55;
+}
+
+@utility anim-scale-x-60 {
+  --anim-scale-x: 0.6;
+}
+
+@utility anim-scale-x-65 {
+  --anim-scale-x: 0.65;
+}
+
+@utility anim-scale-x-70 {
+  --anim-scale-x: 0.7;
+}
+
+@utility anim-scale-x-75 {
+  --anim-scale-x: 0.75;
+}
+
+@utility anim-scale-x-80 {
+  --anim-scale-x: 0.8;
+}
+
+@utility anim-scale-x-85 {
+  --anim-scale-x: 0.85;
+}
+
+@utility anim-scale-x-90 {
+  --anim-scale-x: 0.9;
+}
+
+@utility anim-scale-x-95 {
+  --anim-scale-x: 0.95;
+}
+
+@utility anim-scale-x-100 {
+  --anim-scale-x: 1;
+}
+
+@utility anim-scale-x-105 {
+  --anim-scale-x: 1.05;
+}
+
+@utility anim-scale-x-110 {
+  --anim-scale-x: 1.1;
+}
+
+@utility anim-scale-x-115 {
+  --anim-scale-x: 1.15;
+}
+
+@utility anim-scale-x-120 {
+  --anim-scale-x: 1.2;
+}
+
+@utility anim-scale-x-125 {
+  --anim-scale-x: 1.25;
+}
+
+@utility anim-scale-x-150 {
+  --anim-scale-x: 1.5;
+}
+
+@utility anim-scale-x-200 {
+  --anim-scale-x: 2;
+}
+
+@utility anim-scale-x-* {
+  --anim-scale-x: calc(--value(integer) * 0.01);
+  --anim-scale-x: --value([ *]);
+}
+
+@utility anim-scale-y-0 {
+  --anim-scale-y: 0;
+}
+
+@utility anim-scale-y-5 {
+  --anim-scale-y: 0.05;
+}
+
+@utility anim-scale-y-10 {
+  --anim-scale-y: 0.1;
+}
+
+@utility anim-scale-y-15 {
+  --anim-scale-y: 0.15;
+}
+
+@utility anim-scale-y-20 {
+  --anim-scale-y: 0.2;
+}
+
+@utility anim-scale-y-25 {
+  --anim-scale-y: 0.25;
+}
+
+@utility anim-scale-y-30 {
+  --anim-scale-y: 0.3;
+}
+
+@utility anim-scale-y-35 {
+  --anim-scale-y: 0.35;
+}
+
+@utility anim-scale-y-40 {
+  --anim-scale-y: 0.4;
+}
+
+@utility anim-scale-y-45 {
+  --anim-scale-y: 0.45;
+}
+
+@utility anim-scale-y-50 {
+  --anim-scale-y: 0.5;
+}
+
+@utility anim-scale-y-55 {
+  --anim-scale-y: 0.55;
+}
+
+@utility anim-scale-y-60 {
+  --anim-scale-y: 0.6;
+}
+
+@utility anim-scale-y-65 {
+  --anim-scale-y: 0.65;
+}
+
+@utility anim-scale-y-70 {
+  --anim-scale-y: 0.7;
+}
+
+@utility anim-scale-y-75 {
+  --anim-scale-y: 0.75;
+}
+
+@utility anim-scale-y-80 {
+  --anim-scale-y: 0.8;
+}
+
+@utility anim-scale-y-85 {
+  --anim-scale-y: 0.85;
+}
+
+@utility anim-scale-y-90 {
+  --anim-scale-y: 0.9;
+}
+
+@utility anim-scale-y-95 {
+  --anim-scale-y: 0.95;
+}
+
+@utility anim-scale-y-100 {
+  --anim-scale-y: 1;
+}
+
+@utility anim-scale-y-105 {
+  --anim-scale-y: 1.05;
+}
+
+@utility anim-scale-y-110 {
+  --anim-scale-y: 1.1;
+}
+
+@utility anim-scale-y-115 {
+  --anim-scale-y: 1.15;
+}
+
+@utility anim-scale-y-120 {
+  --anim-scale-y: 1.2;
+}
+
+@utility anim-scale-y-125 {
+  --anim-scale-y: 1.25;
+}
+
+@utility anim-scale-y-150 {
+  --anim-scale-y: 1.5;
+}
+
+@utility anim-scale-y-200 {
+  --anim-scale-y: 2;
+}
+
+@utility anim-scale-y-* {
+  --anim-scale-y: calc(--value(integer) * 0.01);
+  --anim-scale-y: --value([ *]);
+}
+
+@utility anim-scale-0 {
+  --anim-scale-x: 0;
+  --anim-scale-y: 0;
+}
+
+@utility anim-scale-5 {
+  --anim-scale-x: 0.05;
+  --anim-scale-y: 0.05;
+}
+
+@utility anim-scale-10 {
+  --anim-scale-x: 0.1;
+  --anim-scale-y: 0.1;
+}
+
+@utility anim-scale-15 {
+  --anim-scale-x: 0.15;
+  --anim-scale-y: 0.15;
+}
+
+@utility anim-scale-20 {
+  --anim-scale-x: 0.2;
+  --anim-scale-y: 0.2;
+}
+
+@utility anim-scale-25 {
+  --anim-scale-x: 0.25;
+  --anim-scale-y: 0.25;
+}
+
+@utility anim-scale-30 {
+  --anim-scale-x: 0.3;
+  --anim-scale-y: 0.3;
+}
+
+@utility anim-scale-35 {
+  --anim-scale-x: 0.35;
+  --anim-scale-y: 0.35;
+}
+
+@utility anim-scale-40 {
+  --anim-scale-x: 0.4;
+  --anim-scale-y: 0.4;
+}
+
+@utility anim-scale-45 {
+  --anim-scale-x: 0.45;
+  --anim-scale-y: 0.45;
+}
+
+@utility anim-scale-50 {
+  --anim-scale-x: 0.5;
+  --anim-scale-y: 0.5;
+}
+
+@utility anim-scale-55 {
+  --anim-scale-x: 0.55;
+  --anim-scale-y: 0.55;
+}
+
+@utility anim-scale-60 {
+  --anim-scale-x: 0.6;
+  --anim-scale-y: 0.6;
+}
+
+@utility anim-scale-65 {
+  --anim-scale-x: 0.65;
+  --anim-scale-y: 0.65;
+}
+
+@utility anim-scale-70 {
+  --anim-scale-x: 0.7;
+  --anim-scale-y: 0.7;
+}
+
+@utility anim-scale-75 {
+  --anim-scale-x: 0.75;
+  --anim-scale-y: 0.75;
+}
+
+@utility anim-scale-80 {
+  --anim-scale-x: 0.8;
+  --anim-scale-y: 0.8;
+}
+
+@utility anim-scale-85 {
+  --anim-scale-x: 0.85;
+  --anim-scale-y: 0.85;
+}
+
+@utility anim-scale-90 {
+  --anim-scale-x: 0.9;
+  --anim-scale-y: 0.9;
+}
+
+@utility anim-scale-95 {
+  --anim-scale-x: 0.95;
+  --anim-scale-y: 0.95;
+}
+
+@utility anim-scale-100 {
+  --anim-scale-x: 1;
+  --anim-scale-y: 1;
+}
+
+@utility anim-scale-105 {
+  --anim-scale-x: 1.05;
+  --anim-scale-y: 1.05;
+}
+
+@utility anim-scale-110 {
+  --anim-scale-x: 1.1;
+  --anim-scale-y: 1.1;
+}
+
+@utility anim-scale-115 {
+  --anim-scale-x: 1.15;
+  --anim-scale-y: 1.15;
+}
+
+@utility anim-scale-120 {
+  --anim-scale-x: 1.2;
+  --anim-scale-y: 1.2;
+}
+
+@utility anim-scale-125 {
+  --anim-scale-x: 1.25;
+  --anim-scale-y: 1.25;
+}
+
+@utility anim-scale-150 {
+  --anim-scale-x: 1.5;
+  --anim-scale-y: 1.5;
+}
+
+@utility anim-scale-200 {
+  --anim-scale-x: 2;
+  --anim-scale-y: 2;
+}
+
+@utility anim-scale-* {
+  --anim-scale-x: calc(--value(integer) * 0.01);
+  --anim-scale-y: calc(--value(integer) * 0.01);
+  --anim-scale-x: --value([ *]);
+  --anim-scale-y: --value([ *]);
+}

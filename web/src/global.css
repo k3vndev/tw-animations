@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "../../src/tw-animations.css";
+
+body {
+  overflow: hidden;
+  background: black;
+}

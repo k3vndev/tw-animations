@@ -1,68 +1,68 @@
-@utility animation-delay-none {
+@utility anim-delay-none {
   animation-delay: 0s;
 }
 
-@utility animation-delay-100 {
+@utility anim-delay-100 {
   animation-delay: 100ms;
 }
 
-@utility animation-delay-150 {
+@utility anim-delay-150 {
   animation-delay: 150ms;
 }
 
-@utility animation-delay-200 {
+@utility anim-delay-200 {
   animation-delay: 200ms;
 }
 
-@utility animation-delay-250 {
+@utility anim-delay-250 {
   animation-delay: 250ms;
 }
 
-@utility animation-delay-300 {
+@utility anim-delay-300 {
   animation-delay: 300ms;
 }
 
-@utility animation-delay-400 {
+@utility anim-delay-400 {
   animation-delay: 350ms;
 }
 
-@utility animation-delay-500 {
+@utility anim-delay-500 {
   animation-delay: 500ms;
 }
 
-@utility animation-delay-600 {
+@utility anim-delay-600 {
   animation-delay: 600ms;
 }
 
-@utility animation-delay-700 {
+@utility anim-delay-700 {
   animation-delay: 700ms;
 }
 
-@utility animation-delay-800 {
+@utility anim-delay-800 {
   animation-delay: 800ms;
 }
 
-@utility animation-delay-900 {
+@utility anim-delay-900 {
   animation-delay: 900ms;
 }
 
-@utility animation-delay-1000 {
+@utility anim-delay-1000 {
   animation-delay: 1000ms;
 }
 
-@utility animation-delay-1250 {
+@utility anim-delay-1250 {
   animation-delay: 1250ms;
 }
 
-@utility animation-delay-1500 {
+@utility anim-delay-1500 {
   animation-delay: 1500ms;
 }
 
-@utility animation-delay-2000 {
+@utility anim-delay-2000 {
   animation-delay: 2000ms;
 }
 
-@utility animation-delay-* {
+@utility anim-delay-* {
   animation-delay: --value(integer)ms;
   animation-delay: --value([ *]);
 }

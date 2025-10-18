@@ -5,27 +5,74 @@
 @import './utilities/base/fill.css';
 @import './utilities/base/delay.css';
 @import './utilities/base/iteration.css';
+@import './utilities/base/ease.css';
 @import './utilities/custom-props/blur.css';
-@import './utilities/custom-props/slide-offset.css';
+@import './utilities/custom-props/scale.css';
+@import './utilities/custom-props/opacity.css';
+@import './utilities/custom-props/slide-move.css';
+@import './utilities/custom-props/rotate.css';
+
 
 :root {
-  --animation-blur: blur(0px);
-  --animation-slide-offset: 3rem;
+  --anim-slide-move: 3rem;
+  --anim-blur: blur(0px);
+
+  --anim-scale-x: 1;
+  --anim-scale-y: 1;
+  --anim-opacity: 1;
+  --anim-rotate: 0deg;
+
+  --internal-anim-slide-transform: 0 0;
+  --internal-anim-params: 800ms ease both;
 }
 
-@theme {
-  /* Slide animations */
-  --animate-slide-in-left: slide-in-left 800ms ease both;
-  --animate-slide-in-right: slide-in-right 800ms ease both;
-  --animate-slide-in-top: slide-in-top 800ms ease both;
-  --animate-slide-in-bottom: slide-in-bottom 800ms ease both;
 
-  --animate-slide-out-left: slide-out-left 800ms ease both;
-  --animate-slide-out-right: slide-out-right 800ms ease both;
-  --animate-slide-out-top: slide-out-top 800ms ease both;
-  --animate-slide-out-bottom: slide-out-bottom 800ms ease both;
+@utility animate-slide-in-l {
+  animation: slide-in var(--internal-anim-params);
+  --internal-anim-slide-transform: calc(var(--anim-slide-move) * -1) 0;
+}
 
-  /* Fade animations */
-  --animate-fade-in: fade-in 500ms ease both;
-  --animate-fade-out: fade-out 500ms ease both;
+@utility animate-slide-in-r {
+  animation: slide-in var(--internal-anim-params);
+  --internal-anim-slide-transform: var(--anim-slide-move) 0;
+}
+
+@utility animate-slide-in-t {
+  animation: slide-in var(--internal-anim-params);
+  --internal-anim-slide-transform: 0 calc(var(--anim-slide-move) * -1);
+}
+
+@utility animate-slide-in-b {
+  animation: slide-in var(--internal-anim-params);
+  --internal-anim-slide-transform: 0 var(--anim-slide-move);
+}
+
+@utility animate-slide-out-l {
+  animation: slide-out var(--internal-anim-params);
+  --internal-anim-slide-transform: calc(var(--anim-slide-move) * -1) 0;
+}
+
+@utility animate-slide-out-r {
+  animation: slide-out var(--internal-anim-params);
+  --internal-anim-slide-transform: var(--anim-slide-move) 0;
+}
+
+@utility animate-slide-out-t {
+  animation: slide-out var(--internal-anim-params);
+  --internal-anim-slide-transform: 0 calc(var(--anim-slide-move) * -1);
+}
+
+@utility animate-slide-out-b {
+  animation: slide-out var(--internal-anim-params);
+  --internal-anim-slide-transform: 0 var(--anim-slide-move);
+}
+
+@utility animate-fade-in {
+  animation: fade-in var(--internal-anim-params);
+  --anim-opacity: 0;
+}
+
+@utility animate-fade-out {
+  animation: fade-out var(--internal-anim-params);
+  --anim-opacity: 0;
 }

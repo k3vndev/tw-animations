@@ -1,0 +1,84 @@
+@utility anim-rotate-0 {
+  --anim-rotate: 0deg;
+}
+
+@utility anim-rotate-1 {
+  --anim-rotate: 1deg;
+}
+
+@utility anim-rotate-2 {
+  --anim-rotate: 2deg;
+}
+
+@utility anim-rotate-3 {
+  --anim-rotate: 3deg;
+}
+
+@utility anim-rotate-6 {
+  --anim-rotate: 6deg;
+}
+
+@utility anim-rotate-12 {
+  --anim-rotate: 12deg;
+}
+
+@utility anim-rotate-45 {
+  --anim-rotate: 45deg;
+}
+
+@utility anim-rotate-90 {
+  --anim-rotate: 90deg;
+}
+
+@utility anim-rotate-180 {
+  --anim-rotate: 180deg;
+}
+
+@utility anim-rotate-360 {
+  --anim-rotate: 360deg;
+}
+
+@utility anim-rotate-* {
+  --anim-rotate: --value(integer)deg;
+  --anim-rotate: --value([ *]);
+}
+
+@utility -anim-rotate-1 {
+  --anim-rotate: -1deg;
+}
+
+@utility -anim-rotate-2 {
+  --anim-rotate: -2deg;
+}
+
+@utility -anim-rotate-3 {
+  --anim-rotate: -3deg;
+}
+
+@utility -anim-rotate-6 {
+  --anim-rotate: -6deg;
+}
+
+@utility -anim-rotate-12 {
+  --anim-rotate: -12deg;
+}
+
+@utility -anim-rotate-45 {
+  --anim-rotate: -45deg;
+}
+
+@utility -anim-rotate-90 {
+  --anim-rotate: -90deg;
+}
+
+@utility -anim-rotate-180 {
+  --anim-rotate: -180deg;
+}
+
+@utility -anim-rotate-360 {
+  --anim-rotate: -360deg;
+}
+
+@utility -anim-rotate-* {
+  --anim-rotate: calc(--value(integer)deg * -1);
+}

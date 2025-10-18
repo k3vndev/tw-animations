@@ -21,4 +21,12 @@ Thumbs.db
 .idea
 .vscode
 
-test.html
+# generated types
+.astro/
+
+# environment variables
+.env
+.env.production
+
+# jetbrains setting folder
+.idea/

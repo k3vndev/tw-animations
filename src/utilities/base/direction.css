@@ -1,15 +1,15 @@
-@utility animation-normal {
+@utility anim-normal {
   animation-direction: normal;
 }
 
-@utility animation-reverse {
+@utility anim-reverse {
   animation-direction: reverse;
 }
 
-@utility animation-alternate {
+@utility anim-alternate {
   animation-direction: alternate;
 }
 
-@utility animation-alternate-reverse {
+@utility anim-alternate-reverse {
   animation-direction: alternate-reverse;
 }

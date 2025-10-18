@@ -1,0 +1,116 @@
+@utility anim-opacity-0 {
+  --anim-opacity: 0;
+}
+
+@utility anim-opacity-5 {
+  --anim-opacity: 0.05;
+}
+
+@utility anim-opacity-10 {
+  --anim-opacity: 0.1;
+}
+
+@utility anim-opacity-15 {
+  --anim-opacity: 0.15;
+}
+
+@utility anim-opacity-20 {
+  --anim-opacity: 0.2;
+}
+
+@utility anim-opacity-25 {
+  --anim-opacity: 0.25;
+}
+
+@utility anim-opacity-30 {
+  --anim-opacity: 0.3;
+}
+
+@utility anim-opacity-35 {
+  --anim-opacity: 0.35;
+}
+
+@utility anim-opacity-40 {
+  --anim-opacity: 0.4;
+}
+
+@utility anim-opacity-45 {
+  --anim-opacity: 0.45;
+}
+
+@utility anim-opacity-50 {
+  --anim-opacity: 0.5;
+}
+
+@utility anim-opacity-55 {
+  --anim-opacity: 0.55;
+}
+
+@utility anim-opacity-60 {
+  --anim-opacity: 0.6;
+}
+
+@utility anim-opacity-65 {
+  --anim-opacity: 0.65;
+}
+
+@utility anim-opacity-70 {
+  --anim-opacity: 0.7;
+}
+
+@utility anim-opacity-75 {
+  --anim-opacity: 0.75;
+}
+
+@utility anim-opacity-80 {
+  --anim-opacity: 0.8;
+}
+
+@utility anim-opacity-85 {
+  --anim-opacity: 0.85;
+}
+
+@utility anim-opacity-90 {
+  --anim-opacity: 0.9;
+}
+
+@utility anim-opacity-95 {
+  --anim-opacity: 0.95;
+}
+
+@utility anim-opacity-100 {
+  --anim-opacity: 1;
+}
+
+@utility anim-opacity-105 {
+  --anim-opacity: 1.05;
+}
+
+@utility anim-opacity-110 {
+  --anim-opacity: 1.1;
+}
+
+@utility anim-opacity-115 {
+  --anim-opacity: 1.15;
+}
+
+@utility anim-opacity-120 {
+  --anim-opacity: 1.2;
+}
+
+@utility anim-opacity-125 {
+  --anim-opacity: 1.25;
+}
+
+@utility anim-opacity-150 {
+  --anim-opacity: 1.5;
+}
+
+@utility anim-opacity-200 {
+  --anim-opacity: 2;
+}
+
+@utility anim-opacity-* {
+  --anim-opacity: calc(--value(integer) * 0.01);
+  --anim-opacity: --value([ *]);
+}
