@@ -1,0 +1,15 @@
+@utility animation-fill-none {
+  animation-fill-mode: normal;
+}
+
+@utility animation-fill-forwards {
+  animation-fill-mode: forwards;
+}
+
+@utility animation-fill-backwards {
+  animation-fill-mode: backwards;
+}
+
+@utility animation-fill-both {
+  animation-fill-mode: both;
+}

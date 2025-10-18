@@ -1,23 +1,17 @@
 # 🌀 @k3vndev/tw-animations
 
-A lightweight set of Tailwind CSS animations ready to drop into any project.
+A lightweight set of customizable Tailwind CSS animations ready to drop into any project.
 Built for Tailwind v4+.
 
+Built around [Tailwind CSS Animated](https://www.tailwindcss-animated.com) and [easings.net](https://easings.net/).
 
 ### 🚀 Installation
-
-```bash
-pnpm add @k3vndev/tw-animations
-```
-
-or
 
 ```bash
 npm install @k3vndev/tw-animations
 ```
 
 ---
-
 
 ### 🧩 Usage
 
@@ -33,6 +27,8 @@ Add it to your main CSS file **after** Tailwind:
 Then just use the classes:
 
 ```html
-<div class="animate-fade-in-up">Hello there 👋</div>
+<h1 class="animate-slide-in-bottom animation-blur-md">
+  Hello there 👋
+</h1>
 ```
 

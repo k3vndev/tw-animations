@@ -1,110 +1,31 @@
 @import 'tailwindcss';
 
+@import './keyframes.css';
+@import './utilities/base/duration.css';
+@import './utilities/base/fill.css';
+@import './utilities/base/delay.css';
+@import './utilities/base/iteration.css';
+@import './utilities/custom-props/blur.css';
+@import './utilities/custom-props/slide-offset.css';
+
+:root {
+  --animation-blur: blur(0px);
+  --animation-slide-offset: 3rem;
+}
+
 @theme {
-  /* Easing vars */
-  --easing-back-out: cubic-bezier(0.34, 1.56, 0.64, 1);
+  /* Slide animations */
+  --animate-slide-in-left: slide-in-left 800ms ease both;
+  --animate-slide-in-right: slide-in-right 800ms ease both;
+  --animate-slide-in-top: slide-in-top 800ms ease both;
+  --animate-slide-in-bottom: slide-in-bottom 800ms ease both;
 
-  /* Slide anim vars */
-  --slide-anim-timing: 0.75s var(--easing-back-out);
-  --slide-anim-blur: blur(12px);
-  --slide-anim-move: 48px;
+  --animate-slide-out-left: slide-out-left 800ms ease both;
+  --animate-slide-out-right: slide-out-right 800ms ease both;
+  --animate-slide-out-top: slide-out-top 800ms ease both;
+  --animate-slide-out-bottom: slide-out-bottom 800ms ease both;
 
-  /* Main animations */
-  --animate-slide-in-left: slide-in-left var(--slide-anim-timing) both;
-  --animate-slide-in-right: slide-in-right var(--slide-anim-timing) both;
-  --animate-slide-in-top: slide-in-top var(--slide-anim-timing) both;
-  --animate-slide-in-bottom: slide-in-bottom var(--slide-anim-timing) both;
-
-  --animate-slide-out-left: slide-out-left var(--slide-anim-timing) both;
-  --animate-slide-out-right: slide-out-right var(--slide-anim-timing) both;
-  --animate-slide-out-top: slide-out-top var(--slide-anim-timing) both;
-  --animate-slide-out-bottom: slide-out-bottom var(--slide-anim-timing) both;
-}
-
-/* Slide in animations */
-@keyframes slide-in-left {
-  from {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: calc(var(--slide-anim-move) * -1) 0;
-  }
-  to {
-    translate: 0;
-    filter: blur(0);
-  }
-}
-@keyframes slide-in-right {
-  from {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: var(--slide-anim-move) 0;
-  }
-  to {
-    translate: 0;
-    filter: blur(0);
-  }
-}
-@keyframes slide-in-top {
-  from {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: 0 calc(var(--slide-anim-move) * -1);
-  }
-  to {
-    translate: 0;
-    filter: blur(0);
-  }
-}
-@keyframes slide-in-bottom {
-  from {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: 0 var(--slide-anim-move);
-  }
-  to {
-    translate: 0;
-    filter: blur(0);
-  }
-}
-
-/* Slide out animations */
-@keyframes slide-out-left {
-  from {
-    translate: 0;
-  }
-  to {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: calc(var(--slide-anim-move) * -1) 0;
-  }
-}
-@keyframes slide-out-right {
-  from {
-    filter: blur(0);
-  }
-  to {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: var(--slide-anim-move) 0;
-  }
-}
-@keyframes slide-out-top {
-  from {
-    translate: 0;
-  }
-  to {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: 0 calc(var(--slide-anim-move) * -1);
-  }
-}
-@keyframes slide-out-bottom {
-  from {
-    translate: 0;
-  }
-  to {
-    opacity: 0;
-    filter: var(--slide-anim-blur);
-    translate: 0 var(--slide-anim-move);
-  }
+  /* Fade animations */
+  --animate-fade-in: fade-in 500ms ease both;
+  --animate-fade-out: fade-out 500ms ease both;
 }

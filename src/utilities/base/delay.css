@@ -1,0 +1,68 @@
+@utility animation-delay-none {
+  animation-delay: 0s;
+}
+
+@utility animation-delay-100 {
+  animation-delay: 100ms;
+}
+
+@utility animation-delay-150 {
+  animation-delay: 150ms;
+}
+
+@utility animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+@utility animation-delay-250 {
+  animation-delay: 250ms;
+}
+
+@utility animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+@utility animation-delay-400 {
+  animation-delay: 350ms;
+}
+
+@utility animation-delay-500 {
+  animation-delay: 500ms;
+}
+
+@utility animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+@utility animation-delay-700 {
+  animation-delay: 700ms;
+}
+
+@utility animation-delay-800 {
+  animation-delay: 800ms;
+}
+
+@utility animation-delay-900 {
+  animation-delay: 900ms;
+}
+
+@utility animation-delay-1000 {
+  animation-delay: 1000ms;
+}
+
+@utility animation-delay-1250 {
+  animation-delay: 1250ms;
+}
+
+@utility animation-delay-1500 {
+  animation-delay: 1500ms;
+}
+
+@utility animation-delay-2000 {
+  animation-delay: 2000ms;
+}
+
+@utility animation-delay-* {
+  animation-delay: --value(integer)ms;
+  animation-delay: --value([ *]);
+}

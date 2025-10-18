@@ -1,0 +1,36 @@
+@utility animation-blur-none {
+  --animation-blur: blur(0);
+}
+
+@utility animation-blur-xs {
+  --animation-blur: blur(var(--blur-xs));
+}
+
+@utility animation-blur-sm {
+  --animation-blur: blur(var(--blur-sm));
+}
+
+@utility animation-blur-md {
+  --animation-blur: blur(var(--blur-md));
+}
+
+@utility animation-blur-lg {
+  --animation-blur: blur(var(--blur-lg));
+}
+
+@utility animation-blur-xl {
+  --animation-blur: blur(var(--blur-xl));
+}
+
+@utility animation-blur-2xl {
+  --animation-blur: blur(var(--blur-2xl));
+}
+
+@utility animation-blur-3xl {
+  --animation-blur: blur(var(--blur-3xl));
+}
+
+@utility animation-blur-* {
+  --animation-blur: blur(--value(integer)px);
+  --animation-blur: blur(--value([ *]));
+}

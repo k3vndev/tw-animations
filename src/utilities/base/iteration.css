@@ -1,0 +1,7 @@
+@utility animation-infinite {
+  animation-iteration-count: infinite;
+}
+
+@utility animation-iteration-* {
+  animation-iteration-count: --value(integer, [integer]);
+}
