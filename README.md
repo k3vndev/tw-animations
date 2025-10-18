@@ -1,9 +1,10 @@
 # 🌀 @k3vndev/tw-animations
 
 A lightweight set of customizable Tailwind CSS animations ready to drop into any project.
-Built for Tailwind v4+.
+Built for Tailwind v4+
 
 Built around [Tailwind CSS Animated](https://www.tailwindcss-animated.com) and [easings.net](https://easings.net/).
+
 
 ### 🚀 Installation
 

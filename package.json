@@ -1,7 +1,15 @@
 {
   "name": "@k3vndev/tw-animations",
-  "version": "0.2.0",
-  "description": "Tiny set of Tailwind v4 friendly animation utilities",
+  "version": "0.2.1",
+  "description": "A lightweight set of customizable Tailwind CSS animations ready to drop into any project. Built for Tailwind v4+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k3vndev/tw-animations.git"
+  },
+   "bugs": {
+    "url": "https://github.com/k3vndev/tw-animations/issues"
+  },
+  "homepage": "https://github.com/k3vndev/tw-animations#readme",
   "main": "src/tw-animations.css",
   "files": [
     "src/"
@@ -19,10 +27,14 @@
   "keywords": [
     "tailwind",
     "tailwindcss",
-    "animations"
+    "animations",
+    "motion",
+    "animation-library",
+    "animated",
+    "animation-css"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "k3vndev",
+  "license": "MIT",
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "postcss": "^8.0.0",
